@@ -1,6 +1,9 @@
+from ssl import Options
+from tabnanny import verbose
 from django.apps import AppConfig
 
 
 class PortfolioConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'portfolio'
+    verbose_name = 'Portafolio'
